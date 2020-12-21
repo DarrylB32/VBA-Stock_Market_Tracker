@@ -21,10 +21,10 @@ This VBA script loops through all the stocks for one year and output the followi
 * Clone the repository: git clone https://github.com/DarrylB32/VBA-Stock_Market_Tracker.git
 
 * Open [StockMarketPlus.xlsm](StockMarketPlus.xlsm) file.
-	![Start](ReadMe_Resources/Start.jpg)
+	![Start](ReadMe_Resources/Start.png)
 
 * Select the blue "Stock Market Plus" icon.
-	![End](ReadMe_Resources/End.jpg)
+	![End](ReadMe_Resources/End.png)
 
 
 ### Additional Notes
