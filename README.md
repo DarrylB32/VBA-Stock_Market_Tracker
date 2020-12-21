@@ -1,17 +1,31 @@
-# VBA_Challenge Instructions
+﻿# VBA Wall Street Tracker
 
-Create a script that will loop through all the stocks for one year and output the following information.
-The ticker symbol.
-Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
-The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
-The total stock volume of the stock.
-You should also have conditional formatting that will highlight positive change in green and negative change in red.
-The result should look as follows.
+	
+This VBA script loops through all the stocks for one year and output the following information before repeating this process on the next years (worksheets) data:
 
-CHALLENGES
-Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
-Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
+* The ticker symbol.
 
-Other Considerations
-Use the sheet alphabetical_testing.xlsx while developing your code. This data set is smaller and will allow you to test faster. Your code should run on this file in less than 3-5 minutes.
-Make sure that the script acts the same on each sheet. The joy of VBA is to take the tediousness out of repetitive task and run over and over again with a click of the button.
+* Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+* The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+* The total stock volume of the stock.
+
+* The stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume".
+
+
+### Tech Stack
+* Miscrosoft Excel with Macros Enabled
+
+### User Instructions
+* Clone the repository: git clone https://github.com/DarrylB32/VBA-Stock_Market_Tracker.git
+
+* Open [StockMarketPlus.xlsm](StockMarketPlus.xlsm) file.
+	![Start](ReadMe_Resources/Start.jpg)
+
+* Select the blue "Stock Market Plus" icon.
+	![End](ReadMe_Resources/End.jpg)
+
+
+### Additional Notes
+Depending on the specs of your computer, this script may take several minutes to run. Ideally, this should take approximately 5-7 minutes but currently it takes longer. Changes to the script are being made to increase the script processing speed. 
